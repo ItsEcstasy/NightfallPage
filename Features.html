@@ -1,18 +1,4 @@
-<!-- 
-  To do: 
-  - Overview wording
-  - Add redirect to buy Feature Code
-  - Buy a domain (NightfallGUI.xyz)
-  - Finish description
-  - Make Features tab open new page
-  - Get selfrep to cleanup this source/site
-
-  Other Domains To Mix
-  - https://nightfall.framer.website/
-  - https://nightfall-2.gitbook.io/nightfall-documentation/
- -->
- 
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -50,20 +36,24 @@
             </div>
             <div class="navbar-r">
                 <a class="navbar-link" href="index.html">Home</a>
-                <!-- <a class="navbar-link" href="Features.html">Documentation</a> -->
                 <a class="navbar-link" href="Features.html">Features</a>
-                <a class="navbar-link" href="#Contact">Contact</a>
             </div>
-            </div>
-            </nav>            
+        </div>
+    </nav>
     <section class="header">
         <div class="header-in">
             <div class="header-container">
-                <h1></span>Nightfall</span> <span> for  Lumber Tycoon 2 🌳</h1>
+                <h1><span>Nightfall</span> <span> for  Lumber Tycoon 2 🌳</h1>
                 <p>Nightfall is a gui ... I'll finish this later.</p>
                 <div class="btn-row">
                     <a class="btn-primary scroll" href="#products">purchase now<i class="fa-solid fa-cart-shopping"></i></a>
-                    <a class="btn-primary c" href="#" onclick="contactMessage()">contact us<i class="fa-light fa-arrow-right-long"></i></a>
+                    <script>
+                        function msg() {
+                            var popupMessage = "Join Discord and make a ticket";
+                            alert(popupMessage);
+                        }
+                    </script>
+                    <a class="btn-primary c" href="https://discord.gg/NightfallGUI" target="_blank" onclick="msg()">contact us<i class="fa-light fa-arrow-right-long"></i></a>
                 </div>
             </div>
             <div class="header-image">
@@ -98,9 +88,6 @@
                 <div class="switch a active">
                     <span>Purchase</span>
                 </div>
-                <!-- <div class="switch b">
-                    <span>Join our Beta Team</span>
-                </div> -->
             </div>
             <div class="products grid-3 a active" id="products">
                 <div class="product-card">
@@ -114,28 +101,8 @@
                     <a class="btn-primary" href="https://nightfallgui.mysellix.io/product/6503e51261895" target="_blank">Purchase for $5.00</a>
                     <a class="btn-secondary" href="https://coming-soon.com/" target="_blank">Click for more info</a>
                 </div>
-                <!-- <div class="product-card">
-                    <h2>Script Key</h2>
-                    <hr>
-                    <div class="product-li">
-                        <span><i class="fa-regular fa-circle-check"></i>Lifetime Access </span>
-                        <span><i class="fa-regular fa-circle-check"></i>Automatic Delivery</span>
-                        <span><i class="fa-regular fa-circle-check"></i>24/7 Support</span>
-                    </div>
-                    <a class="btn-primary" href="https://nightfallgui.mysellix.io/product/6503e51261895" target="_blank">Purchase for $3.50</a>
-                </div> -->
             </div>
             <div class="products grid-3 b">
-                <!-- <div class="product-card">
-                    <h2>Beta Tester Form</h2>
-                    <hr>
-                    <div class="product-li">
-                        <span><i class="fa-regular fa-circle-check"></i>After filling out the form you'll get reviews</span>
-                        <span><i class="fa-regular fa-circle-check"></i>You'll Be Contacted Afterwards</span>
-                    </div>
-                    <button class="btn-primary" data-sell-store="26866" data-sell-product="154177" data-sell-theme="#4f6392" data-sell-darkmode="true" onclick="window.open('https://coming-soon.com/', '_blank')">Fill out Form</button>
-                    <a class="btn-secondary" href="https://coming-soon.com/" target="_blank">Click for more info</a>
-                </div> -->
             </div>
             <div class="title-set">
                 <p>#02</p>
