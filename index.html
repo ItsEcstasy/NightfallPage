@@ -1,18 +1,4 @@
-    <!-- 
-  To do: 
-  - Overview wording
-  - Add redirect to buy Feature Code
-  - Buy a domain (NightfallGUI.xyz)
-  - Finish description
-  - Make Features tab open new page
-  - Get selfrep to cleanup this source/site
-
-  Other Domains To Mix
-  - https://nightfall.framer.website/
-  - https://nightfall-2.gitbook.io/nightfall-documentation/
- -->
- 
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -49,21 +35,25 @@
                 </a>
             </div>
             <div class="navbar-r">
-              <a class="navbar-link" href="index.html">Home</a>
-              <!-- <a class="navbar-link" href="Features.html">Documentation</a> -->
-              <a class="navbar-link" href="Features.html">Features</a>
-              <a class="navbar-link" href="#Contact">Contact</a>
+                <a class="navbar-link" href="index.html">Home</a>
+                <a class="navbar-link" href="Features.html">Features</a>
             </div>
         </div>
     </nav>
     <section class="header">
         <div class="header-in">
             <div class="header-container">
-                <h1></span>Nightfall</span> <span> for  Lumber Tycoon 2 🌳</h1>
+                <h1><span>Nightfall</span> for  Lumber Tycoon 2 🌳</h1>
                 <p>Nightfall is a gui ... I'll finish this later.</p>
                 <div class="btn-row">
                     <a class="btn-primary scroll" href="#products">purchase now<i class="fa-solid fa-cart-shopping"></i></a>
-                    <a class="btn-primary c" href="#" onclick="contactMessage()">contact us<i class="fa-light fa-arrow-right-long"></i></a>
+                    <script>
+                        function msg() {
+                            var popupMessage = "Join Discord and make a ticket";
+                            alert(popupMessage);
+                        }
+                    </script>
+                    <a class="btn-primary c" href="https://discord.gg/NightfallGUI" target="_blank" onclick="msg()">contact us<i class="fa-light fa-arrow-right-long"></i></a>
                 </div>
             </div>
             <div class="header-image">
@@ -76,18 +66,18 @@
             <div class="features grid-3">
                 <div class="features-card">
                     <i class="fa-light fa-hand-holding-dollar"></i>
-                    <h3>Customized Solutions</h3>
-                    <p>Everybody is unique and wants a script for something different. That's why we offer a script with all-in-one features to fit your specific needs and goals.</p>
+                    <h3>Name</h3>
+                    <p>Description.</p>
                 </div>
                 <div class="features-card">
                     <i class="fa-regular fa-truck-bolt"></i>
-                    <h3>Automated Delivery</h3>
-                    <p>You'll receive your access key upon placing an order.</p>
+                    <h3>Name</h3>
+                    <p>Description.</p>
                 </div>
                 <div class="features-card">
                     <i class="fa-regular fa-handshake-angle"></i>
-                    <h3>24/7 Support</h3>
-                    <p>Our dedicated team is always on standby, ready to assist with any queries or concerns. Your satisfaction is our goal.</p>
+                    <h3>Name</h3>
+                    <p>Description.</p>
                 </div>
             </div>
             <div class="title-set">
@@ -97,9 +87,6 @@
             <div class="product-switcher">
                 <div class="switch a active">
                     <span>Purchase</span>
-                </div>
-                <div class="switch b">
-                    <span>Join our Beta Team</span>
                 </div>
             </div>
             <div class="products grid-3 a active" id="products">
@@ -112,29 +99,10 @@
                         <span><i class="fa-regular fa-circle-check"></i>24/7 Support</span>
                     </div>
                     <a class="btn-primary" href="https://nightfallgui.mysellix.io/product/6503e51261895" target="_blank">Purchase for $5.00</a>
-                </div>
-                <div class="product-card">
-                    <h2>Script Key</h2>
-                    <hr>
-                    <div class="product-li">
-                        <span><i class="fa-regular fa-circle-check"></i>Lifetime Access </span>
-                        <span><i class="fa-regular fa-circle-check"></i>Automatic Delivery</span>
-                        <span><i class="fa-regular fa-circle-check"></i>24/7 Support</span>
-                    </div>
-                    <a class="btn-primary" href="https://nightfallgui.mysellix.io/product/6503e51261895" target="_blank">Purchase for $3.50</a>
+                    <a class="btn-secondary" href="https://coming-soon.com/" target="_blank">Click for more info</a>
                 </div>
             </div>
             <div class="products grid-3 b">
-                <div class="product-card">
-                    <h2>Beta Tester Form</h2>
-                    <hr>
-                    <div class="product-li">
-                        <span><i class="fa-regular fa-circle-check"></i>After filling out the form you'll get reviews</span>
-                        <span><i class="fa-regular fa-circle-check"></i>You'll Be Contacted Afterwards</span>
-                    </div>
-                    <button class="btn-primary" data-sell-store="26866" data-sell-product="154177" data-sell-theme="#4f6392" data-sell-darkmode="true" onclick="window.open('https://coming-soon.com/', '_blank')">Fill out Form</button>
-                    <a class="btn-secondary" href="https://coming-soon.com/" target="_blank">Click for more info</a>
-                </div>
             </div>
             <div class="title-set">
                 <p>#02</p>
