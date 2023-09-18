@@ -25,30 +25,13 @@
     
     <link rel="stylesheet" href="kit-pro.fontawesome.com/releases/v6.0.0/css/pro.min.css">
     <link rel="stylesheet" href="assets/css/style.css"/>
-    <script src="assets/js/jquery.js"></script>
     <link href="cdn.sell.app/embed/style.css" rel="stylesheet" />
-    <script src="cdn.sell.app/embed/script.js" type="module"></script>
-    <script src="assets/js/script.js" async></script>
     <script>
-      function contactMessage() {
-          var popupMessage = "Join Discord and make a ticket";
-          alert(popupMessage);
-      }
-  function betaMessage() {
-      var popupMessage = "Join Discord and make a ticket";
-      alert(popupMessage);
-  }
-
-  function youtubeMessage() {
-      var popupMessage = "Join Discord and make a ticket";
-      alert(popupMessage);
-  }
-  function supportMessage() {
-      var popupMessage = "Join Discord and make a ticket";
-      alert(popupMessage);
-  }
+        function pubMessage() {
+            var popupMessage = "Currently not for sale";
+            alert(popupMessage);
+        }
 </script>
-
   </head>
   <body>
     <nav>
@@ -71,8 +54,7 @@
             <h1></span>Nightfall</span> <span> for  Lumber Tycoon 2 🌳</h1>
                 <p>This website is temporarily on hold due to the unavailability of Byfron/Hyperion on the UWP Client. We are waiting for a bypass or the return of Synapse/Script-Ware to proceed with the website's release. Synapse is expected to make a comeback for the 64-bit web client roughly October-December, while Script-Ware will resume its services for Windows once Version 3 is finalized.</p>
                 <div class="btn-row">
-            <a class="btn-primary scroll" href="#products">purchase now<i class="fa-solid fa-cart-shopping"></i></a>
-          <a class="btn-primary c"  target="_blank"href="https://discord.gg/NightfallGUI" onclick="msg()">contact us<i class="fal fa-arrow-right-long"></i></a>        
+            <a class="btn-primary scroll" href="#products">purchase now<i class="fa-solid fa-cart-shopping"></i></a> 
           </div>
         </div>
         <div class="header-image">
@@ -91,7 +73,7 @@
         </div>
         <div class="product-switcher">
            <div class="switch a active">
-             <span>Purchase</span>
+             <span>Products</span>
            </div>
         </div>
         <div class="products grid-3 a active" id="products">
@@ -103,7 +85,7 @@
                 <span><i class="fa-regular fa-circle-check"></i>Automatic Delivery</span>
                 <span><i class="fa-regular fa-circle-check"></i>24/7 Support</span>
             </div>
-            <a class="btn-primary" href="" target="_blank">coming soon</a>
+            <a class="btn-primary"onclick="pubMessage()">coming soon</a>
         </div>
         </div>
   </body>
