@@ -54,12 +54,12 @@
     }
 
     function Copy(text) {
-    const textarea = document.createElement('textarea');
-    textarea.value = text;
-    document.body.appendChild(textarea);
-    textarea.select();
+    const text = document.createElement('text');
+    text.value = text;
+    document.body.appendChild(text);
+    text.select();
     document.execCommand('copy');
-    document.body.removeChild(textarea);
+    document.body.removeChild(text);
   }
   </script>
   
@@ -95,8 +95,8 @@
             <body>
               <div>
                 <p>
-                  <li>Wave: <span class="red">Not Updated</span>
-                  <li>Solara: <span class="red">Not Updated</span>
+                  <li>Wave: <span class="green">Updated</span>
+                  <li>Solara: <span class="green">Updated</span>
                   <li>Celery: <span class="red">Not Updated</span>
                 </p>
             </div>
