@@ -12,9 +12,9 @@
 }
 
 body {
-  color: #ffffff;
+  color: #ffffff; /* text color */
   letter-spacing: -.3px;
-  background-color: rgb(13, 13, 13);
+  background-color: rgb(13, 13, 13);/* background color */
   font-family: Onest, sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -74,7 +74,7 @@ a {
 
 .navbar-container {
   max-width: 1200px;
-  background-color: rgb(31, 31 25);  /* bar backgound color */
+  background-color: rgb(255, 31 25);  /* bar backgound color */
   border: 1px solid #ff0000;
   border-radius: 40px;
   margin-left: auto;
